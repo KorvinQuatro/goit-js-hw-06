@@ -1,3 +1,9 @@
+const backButton = document.createElement("a");
+const body = document.querySelector("body");
+backButton.href = "../6dzjs.html";
+backButton.textContent = "Вернуться";
+body.prepend(backButton);
+
 const textInputEl = document.querySelector("#validation-input");
 
 textInputEl.addEventListener("blur", () => {

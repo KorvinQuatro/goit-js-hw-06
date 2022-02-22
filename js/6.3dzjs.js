@@ -1,3 +1,9 @@
+const backButton = document.createElement("a");
+const body = document.querySelector("body");
+backButton.href = "../6dzjs.html";
+backButton.textContent = "Вернуться";
+body.prepend(backButton);
+
 const images = [
   {
     url: "https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?dpr=2&h=750&w=1260",
